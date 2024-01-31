@@ -2,7 +2,7 @@ import './globals.css';
 import clsx from 'clsx';
 import { Inter } from 'next/font/google';
 import Navbar from './components/Navbar';
-import { ClerkProvider } from '@clerk/nextjs/app-beta';
+import { ClerkProvider } from '@clerk/nextjs';
 import { ptBR } from '@clerk/localizations';
 import Hydrate from './components/Hydrate';
 
