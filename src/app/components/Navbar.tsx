@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { SignedIn, SignedOut } from '@clerk/nextjs';
-import { SignInButton, UserButton } from '@clerk/n extjs';
+import { SignInButton, UserButton } from '@clerk/nextjs';
 import Cart from './Cart';
 
 function Navbar() {
